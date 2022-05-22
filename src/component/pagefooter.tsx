@@ -1,5 +1,5 @@
-import React from 'react';
 import Image from 'next/image';
+import React from 'react';
 import { TwitterShareButton, FacebookShareButton, TwitterIcon, FacebookIcon } from "react-share";
 import { WindowResponse } from '@/hook/WindowsResponse';
 

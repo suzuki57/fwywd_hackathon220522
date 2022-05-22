@@ -4,10 +4,6 @@ import { WindowResponse } from '@/hook/WindowsResponse';
 
 export const PageHeader: React.FC = () => {
   const { width } = WindowResponse();
-  const [openMenu, setOpenMenu] = useState<boolean>(false);
-  const onClickMenu = () => {
-    setOpenMenu(!openMenu);
-  };
   return width >= 900 ? (
     <div className='flex h-[100px] bg-orange'>
       <div className='flex-1 pl-[20px] pt-[20px]'>
