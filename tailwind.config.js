@@ -12,7 +12,7 @@ module.exports = {
         50: '#F5FAFA',
         100: '#E0F1F1',
         200: '#C8E7E7',
-        500: '#82BDBD',
+        500: '#FCDBB8',
         600: '#4BAEAE',
         700: '#199898',
         800: '#007979',
@@ -31,9 +31,9 @@ module.exports = {
         800: '#616F6F',
         900: '#344242',
       },
-      orange: '#F2994A',
+      orange: '#F79428',
       yellow: '#F2C94C',
-      black: '#344242',
+      black: '#443E38',
       white: '#FFFFFF',
     },
     fontSize: {
@@ -44,7 +44,11 @@ module.exports = {
       xl: '1.875rem',
       '2xl': '2.25rem',
     },
-    extend: {},
+    extend: {
+      backgroundImage: theme => ({
+        'hero': "url('/img/Hero.png')",
+     }),
+    },
   },
   plugins: [],
 };
