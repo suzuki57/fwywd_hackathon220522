@@ -1,9 +1,19 @@
+import { CTA } from '../component/cta';
+import { Hero } from '../component/hero';
+import { Mean } from '../component/mean';
+import { Merit } from '../component/merit';
+import { PageFooter } from '../component/pagefooter';
+import { Review } from '../component/review';
+
 const Home: React.FC = () => (
-  <main className='mx-auto max-w-6xl py-6'>
-    <h1 className='text-lg font-bold text-primary-800'>
-      Welcome to Kikagaku Next.js Starter Kit!!
-    </h1>
-  </main>
+  <>
+    <Hero />
+    <Mean />
+    <Merit />
+    <Review />
+    <CTA />
+    <PageFooter />
+  </>
 );
 
 export default Home;
