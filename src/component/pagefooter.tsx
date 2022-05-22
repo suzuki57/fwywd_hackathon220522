@@ -9,9 +9,12 @@ export const PageFooter: React.FC = () => {
       <>
       <div className='w-full bg-orange text-white'>
         <div className='w-[90%] text-center mx-auto'>
-          <div className='flex justify-between py-10'>
-          <Image src={'/img/fwywd.png'} width={200} height={80} alt='ロゴ'></Image>
+          <div className='flex justify-between py-10 items-center'>
+          <Image src={'/img/logo-white01.png'} width={390} height={150} alt='ロゴ'></Image>
+          <div>
           <Image src={'/img/arrow.png'} width={50} height={80} alt='矢印'></Image>
+
+          </div>
 
           </div>
           <div className='flex justify-left'>
@@ -34,12 +37,12 @@ export const PageFooter: React.FC = () => {
             </div>
 
           </div>
-          <div className='grid grid-cols-2 gap-10 w-[20%] mx-auto'>
-          <div>
+          <div className='grid grid-cols-2 gap-10 w-[20%] mx-auto pb-5'>
+          <div className='hover:opacity-70 cursor-pointer'>
         <TwitterShareButton url="https://prism-cube.com" title="ページタイトル"><TwitterIcon size={50} round={true} /></TwitterShareButton>
 
           </div>
-          <div>
+          <div className='hover:opacity-70 cursor-pointer'>
         <FacebookShareButton url="https://prism-cube.com" quote="ページタイトル"><FacebookIcon size={50} round={true} /></FacebookShareButton>
 
           </div>
@@ -57,8 +60,11 @@ export const PageFooter: React.FC = () => {
       <div className='w-full bg-orange text-white'>
         <div className='w-[90%] text-center mx-auto'>
           <div className='flex justify-between py-10'>
-          <Image src={'/img/fwywd.png'} width={200} height={80} alt='ロゴ'></Image>
+          <Image src={'/img/logo-white01.png'} width={250} height={100} alt='ロゴ'></Image>
+          <div>
           <Image src={'/img/arrow.png'} width={50} height={80} alt='矢印'></Image>
+
+          </div>
 
           </div>
           <div className=''>
@@ -81,12 +87,12 @@ export const PageFooter: React.FC = () => {
             </div>
 
           </div>
-          <div className='grid grid-cols-2 gap-10 w-[20%] mx-auto pt-10'>
-          <div>
+          <div className='grid grid-cols-2 gap-10 mx-auto pt-10 pb-5'>
+          <div className='hover:opacity-70 cursor-pointer'>
         <TwitterShareButton url="https://prism-cube.com" title="ページタイトル"><TwitterIcon size={50} round={true} /></TwitterShareButton>
 
           </div>
-          <div>
+          <div className='hover:opacity-70 cursor-pointer'>
         <FacebookShareButton url="https://prism-cube.com" quote="ページタイトル"><FacebookIcon size={50} round={true} /></FacebookShareButton>
 
           </div>

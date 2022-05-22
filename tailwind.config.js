@@ -12,9 +12,10 @@ module.exports = {
         50: '#F5FAFA',
         100: '#E0F1F1',
         200: '#C8E7E7',
+        300: '#FBCA96',
         500: '#FCDBB8',
         600: '#4BAEAE',
-        700: '#199898',
+        700: '#C67620',
         800: '#007979',
         900: '#004747',
       },
@@ -26,7 +27,7 @@ module.exports = {
       },
       gray: {
         50: '#F9F9F9',
-        100: '#ECEEEE',
+        100: '#EFEFEB',
         700: '#808B8B',
         800: '#616F6F',
         900: '#344242',
@@ -45,9 +46,9 @@ module.exports = {
       '2xl': '2.25rem',
     },
     extend: {
-      backgroundImage: theme => ({
-        'hero': "url('/img/Hero.png')",
-     }),
+      backgroundImage: (theme) => ({
+        hero: "url('/img/Hero.png')",
+      }),
     },
   },
   plugins: [],
